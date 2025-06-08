@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<stages>
+<stage minlevel="1" maxlevel="400" multiplier="700"></stage>
+<stage minlevel="400" maxlevel="800" multiplier="400"></stage>
+<stage minlevel="800" maxlevel="1000" multiplier="200"></stage>
+<stage minlevel="1001" maxlevel="1250" multiplier="100"></stage>
+<stage minlevel="1251" maxlevel="1300" multiplier="1"></stage>
+<stage minlevel="1300" maxlevel="1450" multiplier="1"></stage>
+<stage minlevel="2001" maxlevel="2220" multiplier="1"></stage>
+<stage minlevel="3000" maxlevel="99999" multiplier="0"></stage>
+</stages>

@@ -1,0 +1,11 @@
+<quests>
+	<quest name="Helmet of The Deep Quest" startstorageid="89126" startstoragevalue="1">
+		<mission name="Go talk with Roger" storageid="89127" startvalue="1" endvalue="1">
+			<missionstate id="1" description="Get the king's crown from Steven and give it to Rogier." />
+		</mission>
+		<mission name="Buy the Helmet of The Deep" storageid="89128" startvalue="2" endvalue="3">
+			<missionstate id="2" description="Now you can buy the Helmet of the Deep from Roger! The price is 5000 gold coins." />
+			<missionstate id="3" description="Mission Completed." />
+		</mission>
+	</quest>
+</quests>

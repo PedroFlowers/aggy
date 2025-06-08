@@ -1,0 +1,4 @@
+<raid>
+<announce delay="1" type="19" message="Clean em 1 minuto"/>
+<announce delay="2" type="19" message="Clean a cada 30 minutos"/> 
+</raid>

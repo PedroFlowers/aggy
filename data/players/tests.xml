@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<player name="Tests" account="95162254" sex="1" lookdir="1" exp="21181961" voc="5" level="110" reset="0" access="0" cap="890" maglevel="72" soul="250" stamina="180000" maxdepotitems="1000" lastlogin="1749416098">
+  <spawn x="999" y="1001" z="7"/>
+  <temple x="999" y="998" z="6"/>
+  <health now="1706" max="1715" food="0"/>
+  <mana now="7379" max="7379" spent="226040"/>
+  <skull redskulltime="0" redskull="0"/>
+  <look type="128" head="57" body="0" legs="76" feet="95" addons="0"/>
+  <skills>
+    <skill skillid="0" level="15" tries="900"/>
+    <skill skillid="1" level="10" tries="0"/>
+    <skill skillid="2" level="10" tries="0"/>
+    <skill skillid="3" level="10" tries="0"/>
+    <skill skillid="4" level="10" tries="0"/>
+    <skill skillid="5" level="11" tries="0"/>
+    <skill skillid="6" level="10" tries="0"/>
+  </skills>
+  <addons/>
+  <deaths>
+    <death name="Demon" level="80" time="1749413679"/>
+  </deaths>
+  <spells/>
+  <blessings/>
+  <inventory>
+    <slot slotid="1">
+      <item id="2497"/>
+    </slot>
+    <slot slotid="2">
+      <item id="13682"/>
+    </slot>
+    <slot slotid="3">
+      <item id="1988">
+        <inside>
+          <item id="2554"/>
+          <item id="13685" count="9"/>
+          <item id="13531"/>
+          <item id="2352"/>
+          <item id="2273" count="1"/>
+          <item id="2268" count="1"/>
+          <item id="2313" count="1"/>
+          <item id="2304" count="1" charges="1"/>
+          <item id="2361"/>
+          <item id="2160" count="39"/>
+          <item id="2152" count="75"/>
+          <item id="2294" count="1"/>
+          <item id="3961"/>
+          <item id="2280" count="1" charges="1"/>
+          <item id="13524"/>
+          <item id="2453"/>
+          <item id="2350"/>
+          <item id="6550" count="1"/>
+        </inside>
+      </item>
+    </slot>
+    <slot slotid="4">
+      <item id="2656"/>
+    </slot>
+    <slot slotid="6">
+      <item id="7414"/>
+    </slot>
+    <slot slotid="7">
+      <item id="2647"/>
+    </slot>
+    <slot slotid="8">
+      <item id="6132"/>
+    </slot>
+    <slot slotid="9">
+      <item id="2123"/>
+    </slot>
+    <slot slotid="10">
+      <item id="13682"/>
+    </slot>
+  </inventory>
+  <depots>
+    <depot depotid="2">
+      <item id="2589">
+        <inside>
+          <item id="2594"/>
+        </inside>
+      </item>
+    </depot>
+  </depots>
+  <storage>
+    <data key="555" value="1749413652"/>
+    <data key="10001001" value="20774912"/>
+    <data key="10001002" value="21561344"/>
+    <data key="10001003" value="20381696"/>
+    <data key="10001004" value="20840448"/>
+    <data key="10001005" value="21233664"/>
+    <data key="10001006" value="8912896"/>
+    <data key="10001007" value="8978432"/>
+    <data key="10001008" value="9043968"/>
+    <data key="10001009" value="9109504"/>
+    <data key="10001010" value="9175040"/>
+    <data key="10001011" value="9240576"/>
+    <data key="10001012" value="9306112"/>
+    <data key="10001013" value="9633792"/>
+    <data key="10001014" value="9699328"/>
+    <data key="10001015" value="9764864"/>
+    <data key="10001016" value="9830400"/>
+    <data key="10001017" value="10158080"/>
+    <data key="10001018" value="10223616"/>
+    <data key="10001019" value="10289152"/>
+    <data key="10001020" value="10354688"/>
+  </storage>
+</player>

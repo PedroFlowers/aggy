@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Ultimate Titan" nameDescription="a Ultimate Titan" race="blood" experience="10009900" speed="890" manacost="300">
+  <health now="21000000" max="21000000"/>
+  <look type="12" head="94" body="94" legs="94" feet="94" corpse="3128"/>
+  <targetchange interval="2000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="10"/>
+  </flags>
+  <attacks>
+      <attack name="melee" interval="2000" min="-120000" max="-134000"/>
+      <attack name="berserk" interval="2500" chance="10" min="-120000" max="-134000"/>
+      <attack name="tides of darkness" interval="2900" chance="10" min="-1200000" max="-1340000"/>
+      <attack name="lifedrain" interval="8000" chance="40" min="-120000" max="-134000"/>
+  </attacks>
+  <defenses armor="27" defense="20"/>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="Brrrr"/>
+    <voice sentence="Broar!"/>
+  </voices>
+  <loot>
+    <item id="6547" countmax="80" chance1="4000" chancemax="0"/>
+    <item id="6527" countmax="80" chance1="4000" chancemax="0"/>
+    <item id="7342" chance="100000">
+      <inside>
+         <item id="13685" countmax="100" chance1="5000" chancemax="0"/>
+         <item id="13600" chance="2000"/>
+         <item id="13603" chance="2000"/>
+         <item id="13529" chance="2000"/>
+         <item id="2644" chance="900"/>
+         <item id="13654" chance="900"/>
+         <item id="13652" chance="900"/>
+         <item id="13630" chance="900"/>
+      </inside>
+    </item>
+  </loot>
+</monster>

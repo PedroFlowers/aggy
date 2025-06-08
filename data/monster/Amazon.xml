@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Blue Demon" species="human" nameDescription="an Blue Demon" race="blood" experience="10000500" speed="1200" manacost="390">
+    <health now="21000000" max="21000000"/>
+    <look type="12" head="94" body="87" legs="87" feet="87" corpse="3128" race="2"/>
+    <targetchange interval="3000" chance="0"/>
+    <strategy attack="200" defense="0"/>
+    <flags>
+      <flag summonable="1"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="1"/>
+      <flag pushable="0"/>
+      <flag canpushitems="0"/>
+      <flag staticattack="50"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="3"/>
+      <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+      <attack name="melee" interval="200" min="-120000" max="-134000"/>
+      <attack name="energy ball" interval="2500" chance="30" min="-120000" max="-134000"/>
+      <attack name="tides of darkness" interval="3000" chance="20" min="-1200000" max="-1340000"/>
+    </attacks>
+    <defenses armor="40" defense="35"/>
+    <immunities>
+      <immunity physical="0"/>
+      <immunity energy="0"/>
+      <immunity fire="0"/>
+      <immunity poison="0"/>
+      <immunity lifedrain="0"/>
+      <immunity paralyze="0"/>
+      <immunity outfit="0"/>
+      <immunity drunk="0"/>
+      <immunity invisible="0"/>
+    </immunities>
+    <voices interval="2000" chance="5">
+      <voice sentence="Your head shall be mine!"/>
+      <voice sentence="Yeeee ha!"/>
+    </voices>
+    <loot>
+      <item id="6547" countmax="80" chance1="3500" chancemax="0"/>
+      <item id="6527" countmax="50" chance1="4000" chancemax="0"/>
+      <item id="2004" chance="100000">
+        <inside>
+          <item id="13654" chance="900"/>
+          <item id="13652" chance="900"/>
+          <item id="2644" chance="900"/>        
+          <item id="13630" chance="900"/>
+          <item id="13685" countmax="100" chance="5000"/>
+     </inside>
+      </item>
+    </loot>
+  </monster>

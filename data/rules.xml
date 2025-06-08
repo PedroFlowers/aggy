@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<rules>
+<rule msg="Welcome to Zorzin OTServer."/>
+<rule msg=""/>
+<rule msg="* Want to report a bug/person, use !report."/>
+<rule msg="* Dont PK too much or you will be banned."/>
+<rule msg="* Only one house per player."/>
+<rule msg="* Don't ask GMs for items/houses/teleport or something like that."/>
+<rule msg=""/>
+<rule msg="You need to respect all of this rules in order to play here in this OTServer."/>
+<rule msg="Thanks, Zorzin"/>
+</rules>

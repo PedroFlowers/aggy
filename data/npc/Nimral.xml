@@ -1,0 +1,7 @@
+<npc name="Passagem Templar" script="data/npc/scripts/boat_Infernal Island.lua" autowalk="25" floorchange="0" access="5" level="1" maglevel="1">
+	<health now="5000" max="5000"/>
+	<look type="12" head="90" body="90" legs="90" feet="90" addons="3" corpse="3128"/>
+	<parameters>
+		
+	</parameters>
+</npc>

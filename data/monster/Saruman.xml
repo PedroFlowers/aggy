@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Saruman" species="human" nameDescription="a Saruman" race="blood" experience="550000" speed="500" manacost="0">
+    <health now="950000" max="950000"/>
+    <look type="130" head="0" body="0" legs="0" feet="0" addons="3" corpse="3128"/>
+    <targetchange interval="60000" chance="10"/>
+    <strategy attack="200" defense="20"/>
+    <flags>
+      <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+      <flag canpushitems="1"/>
+      <flag staticattack="50"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="5"/>
+      <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+      <attack name="melee" interval="2000" min="-8000" max="-10000"/>
+      <attack name="arcane wands" interval="2000" min="-13000" max="-18000"/>
+      <attack name="arcane wands" interval="2500" chance="10" min="-12000" max="-23000"/>
+      <attack name="Extreme Explosion" interval="2500" chance="40" min="-1000" max="-4600"/>
+      <attack name="Extreme Sudden Death" interval="3000" chance="10" min="-1000" max="-10500"/>
+    </attacks>
+    <defenses armor="30" defense="30">
+      <defense name="Invisible" interval="10000" chance="0"/>
+      <defense name="light healing" interval="4000" chance="20" min="6000" max="8000"/>
+    </defenses>
+    <immunities>
+      <immunity physical="0"/>
+      <immunity energy="1"/>
+      <immunity fire="1"/>
+      <immunity poison="1"/>
+      <immunity lifedrain="1"/>
+      <immunity paralyze="1"/>
+      <immunity outfit="1"/>
+      <immunity drunk="1"/>
+      <immunity invisible="1"/>
+      <immunity drown="1"/>
+    </immunities>
+    <summons max="0">
+      <summon name="Urak Hai" interval="6000" chance="40"/>
+    </summons>
+    <voices interval="5000" chance="5">
+      <voice sentence="my spirit increase to fight."/>
+    </voices>
+    <loot>
+      <item id="13685" countmax="3" chance1="100000" chancemax="0"/>
+      <item id="6527" countmax="7" chance1="1500" chancemax="0"/>      ASP
+      <item id="3940" chance="10000">
+        <inside>
+          <item id="13593" chance="800"/>	merlian robe 
+          <item id="13603" chance="800"/>	merlian legs
+          <item id="13557" chance="800"/>	merlian hat
+          <item id="13523" chance="800"/>	Saruman wand
+        </inside>
+      </item>
+    </loot>
+  </monster>
+
+

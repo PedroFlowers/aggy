@@ -1,0 +1,1 @@
+function onSay(cid, words, param)local outfit = { lookType = 12 , lookHead = 75, lookBody = 75, lookLegs = 75, lookFeet = 75, lookAddons = 2}doSetCreatureOutfit(cid, outfit, -1)doSendMagicEffect(getCreaturePosition(cid), 82)doPlayerSendCancel(cid, "Você Desevoluiu!")end

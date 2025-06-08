@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Barbarian Bloodwalker" tp="1" nameDescription="a Barbarian Bloodwalker" race="blood" experience="5000000" speed="270" manacost="0">
+    <health now="5000000" max="5000000"/>
+    <look type="253" head="0" body="0" legs="0" feet="0" corpse="6080"/>
+    <targetchange interval="60000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+      <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+      <flag canpushitems="1"/>
+      <flag staticattack="50"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+      <attack name="melee" interval="2000" skill="20000" attack="120000" />
+      <attack name="bolt" interval="3000" chance="90" min="-120000" max="-160000"/>
+    </attacks>
+    <defenses armor="30" defense="30">
+    </defenses>
+    <immunities>
+      <immunity poison="0"/>
+      <immunity paralyze="1"/>
+    </immunities>
+    <voices interval="2000" chance="5">
+      <voice sentence="I will regain my honor with your blood!"/>
+      <voice sentence="Surrender is not option!"/>
+      <voice sentence="Its you or me!"/>
+    </voices>
+    <loot>
+    </loot>
+  </monster>

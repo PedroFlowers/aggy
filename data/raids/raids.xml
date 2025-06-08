@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<raids>
+	<raid name="Bem Vindo" file="Bem Vindo.xml" chance="100" interval="10" margin="0" />
+	<raid name="Bem Vindo3" file="Bem Vindo3.xml" chance="100" interval="13" margin="0" />
+	<raid name="clean" file="clean.xml" chance="100" interval="29" margin="0" />
+	<raid name="itens" file="itens.xml" chance="100" interval="5" margin="0" />
+	<raid name="server" file="server.xml" chance="100" interval="8" margin="0" />
+	<raid name="rr" file="rr.xml" chance="100" interval="16" margin="0" />
+</raids>

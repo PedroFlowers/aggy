@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Madareth" tp="1" nameDescription="Madareth" race="blood" experience="165000" speed="610" manacost="0">
+    <health now="31500000" max="31500000"/>
+        <look type="12" head="77" body="97" legs="80" feet="79" corpse="6068"/>
+    <targetchange interval="5000" chance="20"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+      <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+      <flag canpushitems="1"/>
+      <flag canpushcreatures="1"/>
+      <flag staticattack="100"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="400"/>
+    </flags>
+  <attacks>
+       <attack name="melee" interval="1200" min="-38900" max="-48900"/>
+      <attack name="sudden death" interval="4000" chance="70" min="-18900" max="-28900"/>
+      <attack name="poison ball" interval="6000" chance="90" min="-8900" max="-10000"/>
+      <attack name="mana drain" interval="4000" chance="30"/>
+      <attack name="eternal winter" interval="3000" chance="60" min="-12460" max="-23845"/>
+      <attack name="death wave" interval="9000" min="-8100" max="-12150"/>
+      <attack name="sauron wave" interval="1300" min="-39000" max="-42000"/>
+    <attack name="paralyze" interval="5000" chance="55"/>
+
+  </attacks>
+  
+    <defenses armor="32" defense="35">
+      <defense name="healing" interval="1000" chance="25" min="60" max="400">
+        <attribute key="areaEffect" value="blueshimmer"/>
+      </defense>
+    <defense name="haste" interval="5000" chance="100"/>
+    </defenses>
+    <immunities>
+      <immunity physical="0"/>
+      <immunity energy="1"/>
+      <immunity fire="1"/>
+      <immunity poison="0"/>
+      <immunity lifedrain="1"/>
+      <immunity paralyze="1"/>
+      <immunity outfit="1"/>
+      <immunity drunk="1"/>
+      <immunity invisible="1"/>
+    </immunities>
+    <voices interval="2000" chance="10">
+      <voice sentence="LET'S PLAY CAT AND MOUSE, RUN MOUSE RUN!!!!"/>
+      <voice sentence="I WILL HACK YOU TO PIECES!"/>
+    </voices>
+  <loot>
+  <item id="13685" chance="10000" countmax="16" /> -- gold coin
+  <item id="13685" chance="50000" countmax="9" /> -- gold coin
+  <item id="2214" chance="9000" /> -- ring of healing
+  <item id="2142" chance="5000" /> -- ancient amulet
+  <item id="1987" chance="100000" > -- bag
+  <item id="5809" chance="100000" />
+  <inside>
+        <item id="13690" chance="10000" countmax="21" /> -- burst arrow
+      <item id="2195" chance="1000" /> -- boots of haste
+        <item id="13684" chance="1900" /> -- stone skin amulet
+        <item id="13600" chance="2400" /> -- moonlight rod
+        <item id="13586" chance="2100" /> -- volcanic rod
+        <item id="13576" chance="1900" /> -- skull staff
+        <item id="13599" chance="2000" /> -- demon shield
+        <item id="13597" chance="800" /> -- mms
+        <item id="13685" chance="600" /> -- mpa
+  </inside>
+  </item>
+  </loot>
+  </monster>

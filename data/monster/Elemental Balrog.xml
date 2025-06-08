@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Elemental Balrog" nameDescription="a Elemental Balrog" tp="1" race="fire" species="fire" experience="99999999" speed="300" manacost="20000">
+    <health now="2500000" max="2500000"/>
+    <look type="12" head="0" body="73" legs="0" feet="73" corpse="6068" race="2"/>
+    <targetchange interval="60000" chance="5"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+      <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="1"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+      <flag canpushitems="1"/>
+      <flag staticattack="40"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+      <attack name="melee" interval="2000" min="-23300" max="-23500"/>
+      <attack name="balrog fireball" interval="2500" chance="60" min="-16900" max="-17100"/>
+      <attack name="explosion fire" interval="3000" chance="70" min="-16300" max="-16600"/>
+      <attack name="dragon firewave" interval="3500" chance="50" min="-17100" max="-17300"/>
+      <attack name="dragon firebomb" interval="4000" chance="60" min="-2000" max="-12000"/>
+    </attacks>
+    <defenses armor="40" defense="45">
+      <defense name="haste" interval="4500" chance="100"/>
+      <defense name="Light Healing" interval="18000" chance="60" min="7000" max="11000"/>
+    </defenses>
+    <immunities>
+      <immunity physical="0"/>
+      <immunity energy="1"/>
+      <immunity fire="1"/>
+      <immunity poison="1"/>
+      <immunity lifedrain="0"/>
+      <immunity paralyze="1"/>
+      <immunity outfit="1"/>
+      <immunity drunk="1"/>
+      <immunity invisible="1"/>
+    </immunities>
+    <voices interval="6000" chance="10">
+      <voice sentence="burn on the bottom of hell, human!"/>
+      <voice sentence="burn!"/>
+    </voices>
+    <loot>
+      <item id="2160" countmax="99" chance1="100000" chancemax="0"/>
+      <item id="2160" countmax="99" chance1="100000" chancemax="0"/>
+      <item id="13685" countmax="5" chance1="100000" chancemax="0"/>
+      <item id="6527" countmax="5" chance1="10000" chancemax="0"/>
+      <item id="6527" countmax="5" chance1="10000" chancemax="0"/>
+      <item id="5468" chance="2500"/> 
+      <item id="2353" chance="2500"/>     
+      <item id="1994" chance="10000">
+      <inside>
+          <item id="13608" chance="600"/> --iron gloves
+          <item id="13603" chance="600"/> --enchanted magic legs
+          <item id="13595" chance="600"/> --king armor
+          <item id="13600" chance="500"/> --soul legs
+          <item id="13586" chance="300"/> --soul armor
+          <item id="13607" chance="400"/> --shuriken
+          <item id="13559" chance="400"/> --soul helmet
+          <item id="13541" chance="600"/> --spirit of belkor
+          <item id="13550" chance="500"/> --Phoenix Helmet
+          <item id="13546" chance="600"/> --Alabarda Of Fire
+          <item id="13565" chance="700"/> --Balrog Shield
+          <item id="13527" chance="700"/> --Phoenix Wand
+          <item id="13572" chance="700"/> --Phoenix Shield
+          <item id="13511" chance="700"/> --Magma Axe
+          <item id="13685" countmax="2" chance1="700" chancemax="0"/>
+
+
+         </inside>
+        </item>
+    </loot>
+  </monster>
+

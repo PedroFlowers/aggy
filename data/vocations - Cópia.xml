@@ -1,0 +1,344 @@
+<?xml version="1.0"?>
+<vocations>
+<vocation id="0" name="None" description="a rookie" gaincap="5" gainhp="5" gainmana="5" gainhpticks="6" gainhpamount="1" gainmanaticks="1" gainmanaamount="90" gainsoulticks="120" gainsoulamount="1" maxsoul="100" manamultiplier="4.0" attackspeed="900" prevoc="0" basespeed="1000">
+	<diepercent experience="7" magic="7" skill="7" equipment="7" container="100"/>
+	<formula damage="1.2" defense="1.1" armor="1.1"/>
+	<skill id="0" multiplier="1.5"/>
+	<skill id="1" multiplier="2.0"/>
+	<skill id="2" multiplier="2.0"/>
+	<skill id="3" multiplier="2.0"/>
+	<skill id="4" multiplier="2.0"/>
+	<skill id="5" multiplier="1.5"/>
+	<skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="1" name="Sorcerer" description="a Sorcerer" gaincap="10" gainhp="5" gainmana="30" gainhpticks="6" gainhpamount="1" gainmanaticks="3" gainmanaamount="10" gainsoulticks="120" gainsoulamount="1" maxsoul="100" manamultiplier="1.1" attackspeed="1500" prevoc="1" basespeed="220">
+	<diepercent experience="7" magic="7" skill="7" equipment="7" container="100"/>
+	<formula damage="1.2" defense="1.1" armor="1.1"/>
+	<skill id="0" multiplier="1.5"/>
+	<skill id="1" multiplier="2.0"/>
+	<skill id="2" multiplier="2.0"/>
+	<skill id="3" multiplier="2.0"/>
+	<skill id="4" multiplier="2.0"/>
+	<skill id="5" multiplier="1.5"/>
+	<skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="2" name="Druid" description="a Druid" gaincap="10" gainhp="5" gainmana="30" gainhpticks="6" gainhpamount="1" gainmanaticks="3" gainmanaamount="10" gainsoulticks="120" gainsoulamount="1" maxsoul="100" manamultiplier="1.1" attackspeed="1500" prevoc="2" basespeed="220">
+	<diepercent experience="7" magic="7" skill="7" equipment="7" container="100"/>
+	<formula damage="1.2" defense="1.1" armor="1.1"/>
+	<skill id="0" multiplier="1.5"/>
+	<skill id="1" multiplier="1.8"/>
+	<skill id="2" multiplier="1.8"/>
+	<skill id="3" multiplier="1.8"/>
+	<skill id="4" multiplier="1.8"/>
+	<skill id="5" multiplier="1.5"/>
+	<skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="3" name="Paladin" description="a Paladin" gaincap="20" gainhp="10" gainmana="15" gainhpticks="4" gainhpamount="1" gainmanaticks="4" gainmanaamount="10" gainsoulticks="120" gainsoulamount="1" maxsoul="100" manamultiplier="1.4" attackspeed="1500" prevoc="3" basespeed="220">
+	<diepercent experience="7" magic="7" skill="7" equipment="7" container="100"/>
+	<formula damage="1.2" defense="1.1" armor="1.1"/>
+	<skill id="0" multiplier="1.2"/>
+	<skill id="1" multiplier="1.2"/>
+	<skill id="2" multiplier="1.2"/>
+	<skill id="3" multiplier="1.2"/>
+	<skill id="4" multiplier="1.1"/>
+	<skill id="5" multiplier="1.1"/>
+	<skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="4" name="Knight" description="a Knight" gaincap="25" gainhp="15" gainmana="5" gainhpticks="3" gainhpamount="10" gainmanaticks="6" gainmanaamount="10" gainsoulticks="120" gainsoulamount="1" maxsoul="100" manamultiplier="3.0" attackspeed="1500" prevoc="4" basespeed="220">
+	<diepercent experience="7" magic="7" skill="7" equipment="7" container="100"/>
+	<formula damage="1.2" defense="1.1" armor="1.1"/>
+	<skill id="0" multiplier="1.1"/>
+	<skill id="1" multiplier="1.1"/>
+	<skill id="2" multiplier="1.1"/>
+	<skill id="3" multiplier="1.1"/>
+	<skill id="4" multiplier="1.4"/>
+	<skill id="5" multiplier="1.1"/>
+	<skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="5" name="Master Sorcerer" description="a Master Sorcerer" gaincap="10" gainhp="5" gainmana="30" gainhpticks="4" gainhpamount="10" gainmanaticks="2" gainmanaamount="10" gainsoulticks="15" gainsoulamount="1" maxsoul="200" manamultiplier="1.1" attackspeed="1500" prevoc="1" basespeed="220">
+	<diepercent experience="7" magic="7" skill="7" equipment="7" container="100"/>
+	<formula damage="1.2" defense="1.1" armor="1.1"/>
+	<skill id="0" multiplier="1.5"/>
+	<skill id="1" multiplier="2.0"/>
+	<skill id="2" multiplier="2.0"/>
+	<skill id="3" multiplier="2.0"/>
+	<skill id="4" multiplier="2.0"/>
+	<skill id="5" multiplier="1.5"/>
+	<skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="6" name="Elder Druid" description="an Elder Druid" gaincap="10" gainhp="5" gainmana="30" gainhpticks="4" gainhpamount="10" gainmanaticks="2" gainmanaamount="10" gainsoulticks="15" gainsoulamount="1" maxsoul="200" manamultiplier="1.1" attackspeed="1500" prevoc="2" basespeed="220">
+	<diepercent experience="7" magic="7" skill="7" equipment="7" container="100"/>
+	<formula damage="1.2" defense="1.1" armor="1.1"/>
+	<skill id="0" multiplier="1.5"/>
+	<skill id="1" multiplier="1.8"/>
+	<skill id="2" multiplier="1.8"/>
+	<skill id="3" multiplier="1.8"/>
+	<skill id="4" multiplier="1.8"/>
+	<skill id="5" multiplier="1.5"/>
+	<skill id="6" multiplier="1.1"/>
+	</vocation>
+<vocation id="7" name="Royal Paladin" description="a Royal Paladin" gaincap="20" gainhp="10" gainmana="15" gainhpticks="3" gainhpamount="10" gainmanaticks="3" gainmanaamount="10" gainsoulticks="15" gainsoulamount="1" maxsoul="200" manamultiplier="1.4" attackspeed="1500" prevoc="3" basespeed="220">
+	<diepercent experience="7" magic="7" skill="7" equipment="7" container="100"/>
+	<formula damage="1.2" defense="1.1" armor="1.1"/>
+	<skill id="0" multiplier="1.2"/>
+	<skill id="1" multiplier="1.2"/>
+	<skill id="2" multiplier="1.2"/>
+	<skill id="3" multiplier="1.2"/>
+	<skill id="4" multiplier="1.1"/>
+	<skill id="5" multiplier="1.1"/>
+	<skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="8" name="Elite Knight" description="an Elite Knight" gaincap="25" gainhp="15" gainmana="5" gainhpticks="2" gainhpamount="10" gainmanaticks="4" gainmanaamount="10" gainsoulticks="15" gainsoulamount="1" manamultiplier="3.0" attackspeed="1500" prevoc="4" basespeed="220">
+	<diepercent experience="7" magic="7" skill="7" equipment="7" container="100"/>
+	<formula damage="1.2" defense="1.1" armor="1.1"/>
+	<skill id="0" multiplier="1.1"/>
+	<skill id="1" multiplier="1.1"/>
+	<skill id="2" multiplier="1.1"/>
+	<skill id="3" multiplier="1.1"/>
+	<skill id="4" multiplier="1.4"/>
+	<skill id="5" multiplier="1.1"/>
+	<skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="9" name="Wyzard" description="a Wyzard" gaincap="5" gainhp="10" gainmana="60" gainhpticks="5" gainhpamount="10" gainmanaticks="1" gainmanaamount="5" gainsoulticks="5" gainsoulamount="1" maxsoul="100" manamultiplier="1.2" attackspeed="1000" prevoc="1" basespeed="220">
+	<diepercent experience="7" magic="7" skill="7" equipment="0" container="0"/>
+	<formula damage="1.2" defense="1.1" armor="1.1"/>
+	<skill id="0" multiplier="1.5"/>
+	<skill id="1" multiplier="2.0"/>
+	<skill id="2" multiplier="2.0"/>
+	<skill id="3" multiplier="2.0"/>
+	<skill id="4" multiplier="2.0"/>
+	<skill id="5" multiplier="1.5"/>
+	<skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="10" name="Cleric" description="a Cleric" gaincap="5" gainhp="10" gainmana="60" gainhpticks="10" gainhpamount="150" gainmanaticks="1" gainmanaamount="5" gainsoulticks="1" gainsoulamount="5" maxsoul="100" manamultiplier="1.2" attackspeed="1000" prevoc="2" basespeed="220">
+	<diepercent experience="7" magic="7" skill="7" equipment="0" container="0"/>
+	<formula damage="1.2" defense="1.1" armor="1.1"/>
+	<skill id="0" multiplier="1.5"/>
+	<skill id="1" multiplier="1.8"/>
+	<skill id="2" multiplier="1.8"/>
+	<skill id="3" multiplier="1.8"/>
+	<skill id="4" multiplier="1.8"/>
+	<skill id="5" multiplier="1.5"/>
+	<skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="11" name="Ranger" description="a Ranger" gaincap="10" gainhp="20" gainmana="30" gainhpticks="10" gainhpamount="10" gainmanaticks="1" gainmanaamount="5" gainsoulticks="1" gainsoulamount="5" maxsoul="100" manamultiplier="1.4" attackspeed="800" prevoc="3" basespeed="220">
+	<diepercent experience="7" magic="7" skill="7" equipment="0" container="0"/>
+	<formula damage="1.2" defense="1.1" armor="1.1"/>
+	<skill id="0" multiplier="1.4"/>
+	<skill id="1" multiplier="1.4"/>
+	<skill id="2" multiplier="1.4"/>
+	<skill id="3" multiplier="1.4"/>
+	<skill id="4" multiplier="1.2"/>
+	<skill id="5" multiplier="1.4"/>
+	<skill id="6" multiplier="1.4"/>
+</vocation>
+<vocation id="12" name="Slayer" description="a Slayer" gaincap="15" gainhp="30" gainmana="10" gainhpticks="10" gainhpamount="10" gainmanaticks="1" gainmanaamount="5" gainsoulticks="1" gainsoulamount="5" maxsoul="100" manamultiplier="2.9" attackspeed="800" prevoc="4" basespeed="220">
+	<diepercent experience="7" magic="7" skill="7" equipment="0" container="0"/>
+	<formula damage="1.2" defense="1.1" armor="1.1"/>
+	<skill id="0" multiplier="1.2"/>
+	<skill id="1" multiplier="1.2"/>
+	<skill id="2" multiplier="1.2"/>
+	<skill id="3" multiplier="1.2"/>
+	<skill id="4" multiplier="1.5"/>
+	<skill id="5" multiplier="1.2"/>
+	<skill id="6" multiplier="1.2"/>
+</vocation>
+<vocation id="13" name="Wyzard" description="a Wyzard" gaincap="5" gainhp="10" gainmana="60" gainhpticks="10" gainhpamount="10" gainmanaticks="1" gainmanaamount="15" gainsoulticks="1" gainsoulamount="10" manamultiplier="1.2" attackspeed="1000" prevoc="1" basespeed="220">
+	<diepercent experience="7" magic="7" skill="7" equipment="0" container="0"/>
+	<formula damage="1.4" defense="1.2" armor="1.2"/>
+	<skill id="0" multiplier="1.8"/>
+	<skill id="1" multiplier="2.0"/>
+	<skill id="2" multiplier="2.0"/>
+	<skill id="3" multiplier="2.0"/>
+	<skill id="4" multiplier="2.0"/>
+	<skill id="5" multiplier="1.5"/>
+	<skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="14" name="Cleric" description="a Cleric" gaincap="5" gainhp="10" gainmana="60" gainhpticks="10" gainhpamount="10" gainmanaticks="1" gainmanaamount="15" gainsoulticks="1" gainsoulamount="10" manamultiplier="1.2" attackspeed="1000" prevoc="2" basespeed="220">
+	<diepercent experience="7" magic="7" skill="7" equipment="0" container="0"/>
+	<formula damage="1.4" defense="1.2" armor="1.2"/>
+	<skill id="0" multiplier="1.8"/>
+	<skill id="1" multiplier="2.0"/>
+	<skill id="2" multiplier="2.0"/>
+	<skill id="3" multiplier="2.0"/>
+	<skill id="4" multiplier="2.0"/>
+	<skill id="5" multiplier="1.5"/>
+	<skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="15" name="Ranger" description="a Ranger" gaincap="10" gainhp="20" gainmana="30" gainhpticks="10" gainhpamount="10" gainmanaticks="1" gainmanaamount="15" gainsoulticks="1" gainsoulamount="10" manamultiplier="1.4" attackspeed="800" prevoc="3" basespeed="220">
+	<diepercent experience="7" magic="7" skill="7" equipment="0" container="0"/>
+	<formula damage="1.5" defense="1.2" armor="1.3"/>
+	<skill id="0" multiplier="1.4"/>
+	<skill id="1" multiplier="1.4"/>
+	<skill id="2" multiplier="1.4"/>
+	<skill id="3" multiplier="1.4"/>
+	<skill id="4" multiplier="1.2"/>
+	<skill id="5" multiplier="1.2"/>
+	<skill id="6" multiplier="1.3"/>
+</vocation>
+<vocation id="16" name="Slayer" description="a Slayer" gaincap="15" gainhp="30" gainmana="10" gainhpticks="10" gainhpamount="10" gainmanaticks="1" gainmanaamount="10" gainsoulticks="1" gainsoulamount="10" manamultiplier="3.0" attackspeed="800" prevoc="4" basespeed="220">
+	<diepercent experience="7" magic="7" skill="7" equipment="0" container="0"/>
+	<formula damage="1.5" defense="1.4" armor="1.6"/>
+	<skill id="0" multiplier="1.2"/>
+	<skill id="1" multiplier="1.2"/>
+	<skill id="2" multiplier="1.2"/>
+	<skill id="3" multiplier="1.2"/>
+	<skill id="4" multiplier="1.5"/>
+	<skill id="5" multiplier="1.2"/>
+	<skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="17" name="Dragon Slayer" description="a Dragon Slayer" gaincap="20" gainhp="45" gainmana="15" gainhpticks="10" gainhpamount="10" gainmanaticks="1" gainmanaamount="10" gainsoulticks="1" gainsoulamount="10" manamultiplier="2.8" attackspeed="600" prevoc="8" basespeed="220">
+	<diepercent experience="7" magic="7" skill="7" equipment="0" container="0"/>
+	<formula damage="1.5" defense="1.7" armor="1.9"/>
+	<skill id="0" multiplier="1.1"/>
+	<skill id="1" multiplier="1.1"/>
+	<skill id="2" multiplier="1.1"/>
+	<skill id="3" multiplier="1.1"/>
+	<skill id="4" multiplier="1.4"/>
+	<skill id="5" multiplier="1.1"/>
+	<skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="18" name="Elven Ranger" description="a Elven Ranger" gaincap="15" gainhp="30" gainmana="45" gainhpticks="10" gainhpamount="10" gainmanaticks="1" gainmanaamount="10" gainsoulticks="1" gainsoulamount="10" manamultiplier="1.3" attackspeed="600" prevoc="3" basespeed="220">
+	<diepercent experience="7" magic="7" skill="7" equipment="0" container="0"/>
+	<formula damage="1.5" defense="1.2" armor="1.3"/>
+	<skill id="0" multiplier="1.3"/>
+	<skill id="1" multiplier="1.3"/>
+	<skill id="2" multiplier="1.3"/>
+	<skill id="3" multiplier="1.3"/>
+	<skill id="4" multiplier="1.1"/>
+	<skill id="5" multiplier="1.1"/>
+	<skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="19" name="Dark Wyzard" description="a Dark Wyzard" gaincap="10" gainhp="15" gainmana="90" gainhpticks="10" gainhpamount="10" gainmanaticks="1" gainmanaamount="10" gainsoulticks="5" gainsoulamount="1" maxsoul="100" manamultiplier="1.1" attackspeed="800" prevoc="5" basespeed="220">
+	<diepercent experience="7" magic="7" skill="7" equipment="0" container="0"/>
+	<formula damage="1.2" defense="1.1" armor="1.1"/>
+	<skill id="0" multiplier="1.5"/>
+	<skill id="1" multiplier="2.0"/>
+	<skill id="2" multiplier="2.0"/>
+	<skill id="3" multiplier="2.0"/>
+	<skill id="4" multiplier="2.0"/>
+	<skill id="5" multiplier="1.5"/>
+	<skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="20" name="Elemental Cleric" description="a Elemental Cleric" gaincap="10" gainhp="15" gainmana="90" gainhpticks="10" gainhpamount="10" gainmanaticks="1" gainmanaamount="10" gainsoulticks="1" gainsoulamount="10" manamultiplier="1.1" attackspeed="800" prevoc="6" basespeed="220">
+	<diepercent experience="7" magic="7" skill="7" equipment="0" container="0"/>
+	<formula damage="1.4" defense="1.2" armor="1.2"/>
+	<skill id="0" multiplier="1.5"/>
+	<skill id="1" multiplier="2.0"/>
+	<skill id="2" multiplier="2.0"/>
+	<skill id="3" multiplier="2.0"/>
+	<skill id="4" multiplier="2.0"/>
+	<skill id="5" multiplier="1.5"/>
+	<skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="21" name="Elven Ranger" description="a Elven Ranger" gaincap="15" gainhp="30" gainmana="45" gainhpticks="10" gainhpamount="10" gainmanaticks="1" gainmanaamount="10" gainsoulticks="1" gainsoulamount="10" manamultiplier="1.3" attackspeed="600" prevoc="3" basespeed="220">
+	<diepercent experience="7" magic="7" skill="7" equipment="0" container="0"/>
+	<formula damage="1.5" defense="1.2" armor="1.3"/>
+	<skill id="0" multiplier="1.3"/>
+	<skill id="1" multiplier="1.3"/>
+	<skill id="2" multiplier="1.3"/>
+	<skill id="3" multiplier="1.3"/>
+	<skill id="4" multiplier="1.1"/>
+	<skill id="5" multiplier="1.1"/>
+	<skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="22" name="Dragon Slayer" description="a Dragon Slayer" gaincap="20" gainhp="45" gainmana="15" gainhpticks="10" gainhpamount="10" gainmanaticks="1" gainmanaamount="10" gainsoulticks="1" gainsoulamount="10" manamultiplier="2.8" attackspeed="600" prevoc="8" basespeed="220">
+	<diepercent experience="7" magic="7" skill="7" equipment="0" container="0"/>
+	<formula damage="1.5" defense="1.7" armor="1.9"/>
+	<skill id="0" multiplier="1.1"/>
+	<skill id="1" multiplier="1.1"/>
+	<skill id="2" multiplier="1.1"/>
+	<skill id="3" multiplier="1.1"/>
+	<skill id="4" multiplier="1.4"/>
+	<skill id="5" multiplier="1.1"/>
+	<skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="23" name="Warlock" description="a Warlock" gaincap="15" gainhp="15" gainmana="90" gainhpticks="20" gainhpamount="20" gainmanaticks="2" gainmanaamount="20" gainsoulticks="10" gainsoulamount="2" maxsoul="100" manamultiplier="1.1" attackspeed="200" prevoc="9" basespeed="220">
+	<diepercent experience="7" magic="7" skill="7" equipment="0" container="0"/>
+	<formula damage="1.2" defense="1.1" armor="1.1"/>
+	<skill id="0" multiplier="1.5"/>
+	<skill id="1" multiplier="2.0"/>
+	<skill id="2" multiplier="2.0"/>
+	<skill id="3" multiplier="2.0"/>
+	<skill id="4" multiplier="2.0"/>
+	<skill id="5" multiplier="1.5"/>
+	<skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="24" name="Healer" description="a Healer" gaincap="15" gainhp="15" gainmana="90" gainhpticks="10" gainhpamount="10" gainmanaticks="1" gainmanaamount="10" gainsoulticks="1" gainsoulamount="10" manamultiplier="1.1" attackspeed="400" prevoc="10" basespeed="220">
+	<diepercent experience="7" magic="7" skill="7" equipment="0" container="0"/>
+	<formula damage="1.4" defense="1.2" armor="1.2"/>
+	<skill id="0" multiplier="1.8"/>
+	<skill id="1" multiplier="2.0"/>
+	<skill id="2" multiplier="2.0"/>
+	<skill id="3" multiplier="2.0"/>
+	<skill id="4" multiplier="2.0"/>
+	<skill id="5" multiplier="1.5"/>
+	<skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="25" name="Sniper" description="a Sniper" gaincap="20" gainhp="30" gainmana="45" gainhpticks="10" gainhpamount="10" gainmanaticks="1" gainmanaamount="10" gainsoulticks="1" gainsoulamount="10" manamultiplier="1.2" attackspeed="300" prevoc="11" basespeed="220">
+	<diepercent experience="7" magic="7" skill="7" equipment="0" container="0"/>
+	<formula damage="1.5" defense="1.2" armor="1.3"/>
+	<skill id="0" multiplier="1.2"/>
+	<skill id="1" multiplier="1.2"/>
+	<skill id="2" multiplier="1.2"/>
+	<skill id="3" multiplier="1.2"/>
+	<skill id="4" multiplier="1.1"/>
+	<skill id="5" multiplier="1.1"/>
+	<skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="26" name="Divine Hero" description="a Divine Hero" gaincap="25" gainhp="45" gainmana="15" gainhpticks="10" gainhpamount="10" gainmanaticks="1" gainmanaamount="10" gainsoulticks="1" gainsoulamount="10" manamultiplier="3.1" attackspeed="300" prevoc="8" basespeed="220">
+	<diepercent experience="7" magic="7" skill="7" equipment="0" container="0"/>
+	<formula damage="1.5" defense="1.7" armor="1.9"/>
+	<skill id="0" multiplier="1.1"/>
+	<skill id="1" multiplier="1.1"/>
+	<skill id="2" multiplier="1.1"/>
+	<skill id="3" multiplier="1.1"/>
+	<skill id="4" multiplier="1.4"/>
+	<skill id="5" multiplier="1.1"/>
+	<skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="27" name="Zeus" description="a Zeus" gaincap="15" gainhp="30" gainmana="250" gainhpticks="20" gainhpamount="20" gainmanaticks="4" gainmanaamount="40" gainsoulticks="5" gainsoulamount="2" maxsoul="100" manamultiplier="1.1" attackspeed="200" prevoc="9" basespeed="220">
+	<diepercent experience="7" magic="7" skill="7" equipment="0" container="0"/>
+	<formula damage="2.2" defense="2.1" armor="2.2"/>
+	<skill id="0" multiplier="1.5"/>
+	<skill id="1" multiplier="2.0"/>
+	<skill id="2" multiplier="2.0"/>
+	<skill id="3" multiplier="2.0"/>
+	<skill id="4" multiplier="2.0"/>
+	<skill id="5" multiplier="1.5"/>
+	<skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="28" name="Hades" description="a Hades" gaincap="15" gainhp="30" gainmana="250" gainhpticks="20" gainhpamount="20" gainmanaticks="4" gainmanaamount="40" gainsoulticks="5" gainsoulamount="2" manamultiplier="1.1" attackspeed="200" prevoc="10" basespeed="220">
+	<diepercent experience="7" magic="7" skill="7" equipment="0" container="0"/>
+	<formula damage="2.4" defense="2.2" armor="2.2"/>
+	<skill id="0" multiplier="1.8"/>
+	<skill id="1" multiplier="2.0"/>
+	<skill id="2" multiplier="2.0"/>
+	<skill id="3" multiplier="2.0"/>
+	<skill id="4" multiplier="2.0"/>
+	<skill id="5" multiplier="1.5"/>
+	<skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="29" name="Ninja" description="a Ninja" gaincap="20" gainhp="150" gainmana="150" gainhpticks="30" gainhpamount="30" gainmanaticks="3" gainmanaamount="40" gainsoulticks="5" gainsoulamount="2" manamultiplier="1.1" attackspeed="200" prevoc="11" basespeed="220">
+	<diepercent experience="7" magic="7" skill="7" equipment="0" container="0"/>
+	<formula damage="2.5" defense="2.2" armor="2.3"/>
+	<skill id="0" multiplier="1.2"/>
+	<skill id="1" multiplier="1.2"/>
+	<skill id="2" multiplier="1.2"/>
+	<skill id="3" multiplier="1.2"/>
+	<skill id="4" multiplier="1.1"/>
+	<skill id="5" multiplier="1.1"/>
+	<skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="30" name="Mercenario" description="a Mercenario" gaincap="25" gainhp="200" gainmana="40" gainhpticks="50" gainhpamount="50" gainmanaticks="2" gainmanaamount="20" gainsoulticks="5" gainsoulamount="2" manamultiplier="2.1" attackspeed="200" prevoc="8" basespeed="220">
+	<diepercent experience="7" magic="7" skill="7" equipment="0" container="0"/>
+	<formula damage="2.5" defense="2.7" armor="2.9"/>
+	<skill id="0" multiplier="1.1"/>
+	<skill id="1" multiplier="1.1"/>
+	<skill id="2" multiplier="1.1"/>
+	<skill id="3" multiplier="1.1"/>
+	<skill id="4" multiplier="1.4"/>
+	<skill id="5" multiplier="1.1"/>
+	<skill id="6" multiplier="1.1"/>
+</vocation>
+</vocations>

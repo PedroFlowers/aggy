@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+
+<talkactions>
+
+<talkaction words="open sesame" script="example.lua" />
+<talkaction words="tecnicas" script="spells.lua" />
+<talkaction words="open" script="alibaba.lua" />
+<talkaction words="closed" script="alibaba2.lua" />
+<talkaction words="aff" script="aff.lua"/>
+<talkaction words="lol" script="lol.lua"/>
+<talkaction words="/yago" script="yago.lua"/>
+<talkaction words="hunted" script="Hunted.lua"/>
+<talkaction words="noob" script="noob.lua"/>
+<talkaction words="!energyze" script="!energyze.lua" />
+<movevent event="StepIn" actionid="4067" script="parede.lua" />
+<talkaction words="!desevoluir" script="ss.lua"/>
+<talkaction words="!highscore" event="script" value="rank.lua"/>
+<talkaction words="!dance" event="script" value="dancing.lua"/>
+<talkaction words="palavras" event="script" value="palavras.lua"/>
+<talkaction words="!aol1" script="!aol1.lua" />
+<talkaction words="!templaraol" script="aol t.lua" />
+<talkaction words="!aol2" script="!aol2.lua" />
+<talkaction words="!aggyaol" script="aol a.lua" />
+<talkaction words="!aol3" script="!aol3.lua" />
+<talkaction words="!templarcoin" script="templar coin.lua" />
+<talkaction words="/coin" script="!coin.lua" />
+<talkaction words="!info" script="!info.lua" />
+<talkaction words="!buyvip" script="vip.lua" />
+<talkaction words="!templaruh" script="templar uh.lua" />
+<talkaction words="!templarmana" script="templar mana.lua" />
+<talkaction words="/asp" script="ASP.lua" />
+<talkaction words="/templar" script="imortal.lua" />
+<talkaction words="/dark" script="dark.lua" />
+<talkaction words="!aggysorfarmor" script="aggysorf armor.lua" />
+<talkaction words="!aggysorflegs" script="aggysorf legs.lua" />
+<talkaction words="!aggysorfhelmet" script="aggysorf helmet.lua" />
+<talkaction words="!aggysorfboots" script="aggysorf boots.lua" />
+<talkaction words="!templarhelmet" script="imortal helmet.lua" />
+<talkaction words="!templarlegs" script="imortal legs.lua" />
+<talkaction words="!templararmor" script="imortal armor.lua" />
+<talkaction words="!templartrap" script="imortal trap.lua" />
+<talkaction words="!templartime" script="imortal time.lua" />
+<talkaction words="!superexplo" script="super explo.lua" />
+<talkaction words="!templarboots" script="imortal boots.lua" />
+<talkaction words="!darkboots" script="dark1.lua" />
+<talkaction words="!darkhelmet" script="dark2.lua" />
+<talkaction words="!darklegs" script="dark3.lua" />
+<talkaction words="!darkarmor" script="dark4.lua" />
+<talkaction words="!deathsword" script="dark5.lua" />
+<talkaction words="!darkcaster" script="dark6.lua" />
+<talkaction words="!darkside" script="dark7.lua" />
+<talkaction words="!chuninstar" script="dark8.lua" />
+<talkaction words="!vipsword" script="vip sword.lua" />
+<talkaction words="!vipwand" script="vip wand.lua" />
+<talkaction words="!vipbow" script="vip bow.lua" />
+<talkaction words="!viphelmet" script="vip helmet.lua" />
+<talkaction words="!viparmor" script="vip armor.lua" />
+<talkaction words="!viplegs" script="vip legs.lua" />
+<talkaction words="!vipboots" script="vip boots.lua" />
+<talkaction words="/spells" event=" script" script="spells.lua"/>
+<talkaction words="!supermana" event=" script" script="super manarune.lua"/>
+<talkaction words="!superuh" event=" script" script="super uh.lua"/>
+<talkaction words="!supersd" event=" script" script="super sd.lua"/>
+<talkaction words="!changegold" script="changegold.lua" />
+<talkaction words="crew" script="masturbar.lua" />
+<talkaction words="/anime" script="anime.lua" />
+<talkaction words="/anime2" script="anime2.lua" />
+<talkaction words="/anime3" script="anime3.lua" />
+<talkaction log="yes" words="/cleanfrags" access="5" event="script" value="cleanfrag.lua"/>
+<talkaction words="!addon" event="script" value="addondoll.lua"/>
+<talkaction words="!reset" event="script" value="reset.lua"/>
+<talkaction words="porra;caralho;cu;merda;buceta" event="script" value="proibido.lua"/>
+--smileys--
+<talkaction words="xD" script="xd.lua" />
+<talkaction words="xd" script="xd.lua" />
+<talkaction words="XD" script="xd.lua" />
+<talkaction words="Xd" script="xd.lua" />
+<talkaction words="^^" script="^^.lua" />
+<talkaction words="=D" script="=D.lua" />
+<talkaction words="=d" script="=D.lua" />
+<talkaction words=":D" script="-D.lua" />
+<talkaction words=":d" script="-D.lua" />
+<talkaction words="=P" script="=P.lua" />
+<talkaction words="=p" script="=P.lua" />
+<talkaction words=":P" script="-P.lua" />
+<talkaction words=":p" script="-P.lua" />
+<talkaction words="=O" script="=O.lua" />
+<talkaction words="=o" script="=O.lua" />
+<talkaction words=":O" script="-O.lua" />
+<talkaction words=":o" script="-O.lua" />
+<talkaction words="=)" script="=).lua" />
+<talkaction words=":)" script="-).lua" />
+<talkaction words="=(" script="=(.lua" />
+<talkaction words=":(" script="-(.lua" />
+<talkaction words=";)" script=";).lua" />
+<talkaction words=";D" script=";D.lua" />
+<talkaction words=";d" script=";D.lua" />
+<talkaction words=";O" script=";O.lua" />
+<talkaction words=";P" script=";P.lua" />
+<talkaction words=";p" script=";P.lua" />
+<talkaction words=":,(" script="-,(.lua" />
+<talkaction words="=,(" script="=,(.lua" />
+<talkaction words=">=(" script="-=(.lua" />
+<talkaction words=">:(" script="--(.lua" />
+<talkaction words=">=)" script="-=).lua" />
+<talkaction words=">:)" script="--).lua" />
+<talkaction words=">;)" script="-;).lua" />
+<talkaction words=">;(" script="-;(.lua" />
+<talkaction words=";(" script=";(.lua" />
+<talkaction words=":s" script="-S.lua" />
+<talkaction words="yago" script="yago.lua" />
+<talkaction words="diego" script="diego.lua" />
+<talkaction words="marcos" script="marcos.lua" />
+<talkaction words="kauan" script="kauan.lua" />
+<talkaction words="gm" script="gm.lua" />
+<talkaction words="adm" script="gm.lua" />
+<talkaction words="god" script="gm.lua" />
+
+
+<talkaction words="!vip" script="vip_scroll.lua" />
+<talkaction words="!carlin" script="temple_scroll.lua" />
+
+
+
+	<!-- Players: Auto Mensagem -->
+	<talkaction words="!ocupado" script="ocupado.lua"/>
+	<talkaction words="!ausente" script="ausente.lua"/>
+
+
+
+</talkactions>

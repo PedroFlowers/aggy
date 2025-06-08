@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="infernal" nameDescription="an infernal" race="blood" experience="9995755" speed="600" manacost="0">
+    <health now="1000000" max="1000000"/>
+    <look type="12" head="87" body="94" legs="94" feet="94" corpse="6080"/>
+    <targetchange interval="60000" chance="0"/>
+    <strategy attack="200" defense="0"/>
+    <flags>
+      <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+      <flag canpushitems="1"/>
+      <flag canpushcreatures="1"/>
+      <flag staticattack="80"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+  <attacks>
+      <attack name="melee" interval="2000" skill="110" attack="180005"/>
+      <attack name="physical" interval="1000" chance="15" range="7" min="-190000" max="-300085">
+        <attribute key="shootEffect" value="largerock"/>
+      </attack>
+      <attack name="melee" interval="4000" skill="90" attack="180000"/>
+  </attacks>
+    <defenses armor="100" defense="100">
+      <defense name="speed" interval="1000" chance="7" speedchange="400" duration="8000">
+        <attribute key="areaEffect" value="redshimmer"/>
+      </defense>
+      <defense name="healing" interval="1000" chance="15" min="1000" max="2000">
+        <attribute key="areaEffect" value="blueshimmer"/>
+      </defense>
+    </defenses>
+    <immunities>
+      <immunity physical="0"/>
+      <immunity energy="1"/>
+      <immunity fire="1"/>
+      <immunity poison="1"/>
+      <immunity lifedrain="1"/>
+      <immunity paralyze="1"/>
+      <immunity outfit="1"/>
+      <immunity drunk="1"/>
+      <immunity invisible="1"/>
+    </immunities>
+    <loot>
+      <item id="6542" countmax="10" chance1="2500" chancemax="0"/>
+      <item id="13685" countmax="100" chance1="1500" chancemax="0"/>
+      <item id="2004" chance="100000">
+        <inside>
+          <item id="6527" countmax="70" chance1="1500" chancemax="0"/>
+          <item id="13529" chance="800"/>
+          <item id="13526" chance1="800" chancemax="0"/>
+        </inside>
+      </item>
+    </loot>
+  </monster>

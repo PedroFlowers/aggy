@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Montain Balrog" nameDescription="a Montain Balrog" race="blood" species="hard" experience="250000" speed="450" manacost="0">
+    <health now="650000" max="650000"/>
+    <look type="12" head="0" body="97" legs="0" feet="94" corpse="6068"/>
+    <targetchange interval="80000" chance="5"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+      <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+      <flag canpushitems="1"/>
+      <flag staticattack="50"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="50"/>
+    </flags>
+    <attacks>
+      <attack name="melee" interval="2000" min="-5600" max="-5800"/>
+      <attack name="large rock" interval="2500" chance="30" min="-3000" max="-3200"/>
+      <attack name="Earthquake" interval="3000" chance="20" min="-4000" max="-4200"/>
+    </attacks>
+    <defenses armor="47" defense="44">
+      <defense name="Light Healing" interval="8000" chance="60" min="100" max="200"/>
+    </defenses>
+    <immunities>
+      <immunity physical="0"/>
+      <immunity energy="1"/>
+      <immunity fire="1"/>
+      <immunity poison="1"/>
+      <immunity lifedrain="1"/>
+      <immunity paralyze="1"/>
+      <immunity outfit="1"/>
+      <immunity drunk="1"/>
+      <immunity invisible="1"/>
+      <immunity drown="1"/>
+      <immunity emo="1"/>
+    </immunities>
+    <voices interval="6000" chance="30">
+      <voice sentence="Chrush the intruders!"/>
+      <voice sentence="You'r so little!"/>
+      <voice sentence="my strength and my size overcomes many of you!"/>
+    </voices>
+    <loot>
+      <item id="2160" countmax="5" chance1="100000" chancemax="0"/>
+      <item id="1294" countmax="20" chance1="100000" chancemax="0"/>
+      <item id="1996" chance="100000">
+        <inside>
+          <item id="2199" chance="800"/> --Samantha Amulet
+          <item id="13555" chance="300"/> --Gladiator Helmet
+          <item id="13584" chance="300"/> --Gladiator Armor
+          <item id="13602" chance="450"/> --Gladiator Legs
+          <item id="13505" chance="400"/> --Mitril Axe
+          <item id="13547" chance="400"/> --Sword Of Teseu
+          <item id="13540" chance="500"/> --Helical Sword
+         </inside>
+        </item>
+    </loot>
+  </monster>

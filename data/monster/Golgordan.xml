@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Golgordan" tp="1" nameDescription="Golgordan" race="blood" experience="165000" speed="810" manacost="0">
+    <health now="850000" max="850000"/>
+<look type="12" head="90" body="120" legs="90" feet="77" corpse="6068"/>
+    <targetchange interval="60000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+      <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+      <flag canpushitems="1"/>
+      <flag canpushcreatures="1"/>
+      <flag staticattack="100"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="400"/>
+    </flags>
+  <attacks>
+      <attack name="melee" interval="1000" min="-38900" max="-48900"/>
+      <attack name="eternal winter" interval="3000" chance="60" min="-18900" max="-28900"/>
+      <attack name="death wave" interval="5000" chance="60" min="-8900" max="-10000"/>
+      <attack name="sauron wave" interval="2000" chance="50" min="-19820" max="-23000"/>
+    <attack name="paralyze" interval="5000" chance="55"/>
+
+  </attacks>
+  
+      <defenses armor="32" defense="35">
+      <defense name="healing" interval="1000" chance="25" min="60" max="400">
+        <attribute key="areaEffect" value="blueshimmer"/>
+      </defense>
+    <defense name="strong haste" interval="5000" chance="100"/>
+    </defenses>
+    <immunities>
+      <immunity physical="0"/>
+      <immunity energy="0"/>
+      <immunity fire="1"/>
+      <immunity poison="0"/>
+      <immunity lifedrain="1"/>
+      <immunity paralyze="1"/>
+      <immunity outfit="1"/>
+      <immunity drunk="1"/>
+      <immunity invisible="1"/>
+    </immunities>
+        <voices interval="2000" chance="10">
+      <voice sentence="HEY LATRIVAN, HELP HERE!!"/>
+      <voice sentence="TOGETHER NO ONE DEFEAT US!"/>
+      <voice sentence="SAY GOOD BYE TO YOUR LIFE!"/>
+    </voices>
+  <loot>
+  <item id="2148" chance="100000" countmax="100" /> -- gold coin
+  <item id="2148" chance="50000" countmax="90" /> -- gold coin
+  <item id="2143" chance="5000" countmax="5" /> -- white pearl
+  <item id="2396" chance="8429" /> -- ice rapier
+  <item id="2462" chance="6000" /> -- devil helmet
+  <item id="2214" chance="9000" /> -- ring of healing
+  <item id="2165" chance="9000" /> -- stealth ring
+  <item id="2124" chance="9000" /> -- crystal ring
+  <item id="2142" chance="5000" /> -- ancient amulet
+  <item id="1987" chance="100000" > -- bag
+  <item id="5809" chance="100000" />
+  <inside>
+        <item id="2546" chance="10000" countmax="21" /> -- burst arrow
+      <item id="2387" chance="2000" /> -- double axe
+      <item id="2393" chance="1200" /> -- giant sword
+      <item id="2195" chance="1000" /> -- boots of haste
+      <item id="2421" chance="500" /> -- thunder hammer
+      <item id="2192" chance="2000" /> -- crystal ball
+        <item id="2197" chance="1900" /> -- stone skin amulet
+        <item id="2186" chance="2400" /> -- moonlight rod
+        <item id="2185" chance="2100" /> -- volcanic rod
+        <item id="2436" chance="1900" /> -- skull staff
+        <item id="2520" chance="2000" /> -- demon shield
+        <item id="2514" chance="800" /> -- mms
+        <item id="2470" chance="750" /> -- g legs
+        <item id="2472" chance="600" /> -- mpa
+        <item id="2112" chance="900" /> -- teddy bear
+  </inside>
+  </item>
+  </loot>
+  </monster>

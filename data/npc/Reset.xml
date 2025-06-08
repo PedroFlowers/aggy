@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<npc name="Reset" script="data/npc/scripts/reset.lua" access="5" speed="900" lookdir="1" autowalk="25">
+ <look type="306" head="20" body="30" legs="40" feet="50"/>
+</npc>

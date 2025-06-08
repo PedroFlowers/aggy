@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Morlok" nameDescription="a Morlok" race="human" experience="10000123" speed="800" manacost="0">
+    <health now="22000000" max="22000000"/>
+    <look type="35" corpse="3128"/>
+    <targetchange interval="60000" chance="0"/>
+    <strategy attack="200" defense="40"/>
+    <flags>
+      <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="1"/>
+      <flag pushable="1"/>
+      <flag canpushitems="0"/>
+      <flag staticattack="50"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="10"/>
+    </flags>
+    <attacks>
+      <attack name="melee" interval="2000" min="-120000" max="-1340000"/>
+      <attack name="berserk" interval="2500" chance="10" min="-120000" max="-1340000"/>
+      <attack name="Tides Of Darkness" interval="7000" chance="10" min="-1200000" max="-13400000"/>
+      <attack name="Earthquake" interval="2000" chance="10" min="-120000" max="-1340000"/>
+    </attacks>
+    <defenses armor="3" defense="5"/>
+    <immunities>
+      <immunity physical="0"/>
+      <immunity energy="1"/>
+      <immunity fire="1"/>
+      <immunity poison="1"/>
+      <immunity lifedrain="1"/>
+      <immunity paralyze="1"/>
+      <immunity outfit="1"/>
+      <immunity drunk="1"/>
+      <immunity invisible="1"/>
+    </immunities>
+    <loot>
+      <item id="13685" countmax="70" chance1="10000" chancemax="0"/>
+      <item id="7342" chance="10000">
+        <inside>
+          <item id="13630" chance="900"/>             
+          <item id="13654" chance="900"/>
+          <item id="2644" chance="900"/>             
+          <item id="13652" chance="900"/>
+          <item id="6547" countmax="70" chance="3500"/>
+          <item id="6527" countmax="70" chance1="5000" chancemax="0"/>
+        </inside>
+      </item>
+    </loot>
+  </monster>
