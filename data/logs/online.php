@@ -1,1 +1,1 @@
-Players online: Tests, GOD Shadows. Total: 2
+No players online.
