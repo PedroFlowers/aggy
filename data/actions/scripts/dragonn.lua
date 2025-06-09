@@ -2,50 +2,35 @@ local condition = createConditionObject(CONDITION_ENERGY)
 setConditionParam(condition, CONDITION_PARAM_DELAYED, 1)
 addDamageCondition(condition, 0, 0, 0)
 
--- Promo√ß√µes Sky
-local skyPromotions = {
-    [21] = { newVocation = 24, name = "Mage Of Sky" },
-    [22] = { newVocation = 23, name = "Gladiator of Sky" },
-}
-
-local function Kick(cid)
-    if isPlayer(cid) then
-        doRemoveCreature(cid)
-    end
-end
-
-
 function onUse(cid, item, frompos, item2, topos)
-    local voc = getPlayerVocation(cid)
-    local level = getPlayerLevel(cid)
-    local promo = skyPromotions[voc]
 
-    if not promo then
-        doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE,
-            "Sua voca√ß√£o atual n√£o pode ser promovida.")
-        return true
-    end
+Voc = getPlayerVocation(cid)
+PlayerLevel = getPlayerLevel(cid)
 
-    if level < 8000 then
-        doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE,
-            "Voc√™ precisa ter pelo menos n√≠vel 8000 para evoluir.")
-        return true
-    end
+if PlayerLevel == 8 and Voc == 1 then
+doPlayerSetVocation(cid, 24)
+doPlayerSendTextMessage(cid,22,"A forÁa dos Sky agora acompanham o nobre Sky Wyzard.")
+doTargetCombatCondition(0, cid, condition, CONST_ME_MAGIC_BLUE)
+doRemoveItem(item.uid,1)
 
- -- Promo√ß√£o concedida
-    doPlayerSetVocation(cid, promo.newVocation)
-    doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE,
-        "A forca dos Semi-Deuses agora acompanham o nobre " .. promo.name .. ".")
-    doPlayerAddExp(cid, -10000000000)
-    doCreatureChangeMaxHealth(cid, 185)
-    doCreatureAddHealth(cid, 185)
-    doPlayerChangeMaxMana(cid, 35)
-    doPlayerAddMana(cid, 35)
-    doSendMagicEffect(getPlayerPosition(cid), CONST_ME_MAGIC_BLUE)
-    doTargetCombatCondition(0, cid, condition, CONST_ME_MAGIC_BLUE)
-    doRemoveItem(item.uid, 1)
-    Kick(cid)
+elseif PlayerLevel == 8 and Voc == 2 then
+doPlayerSetVocation(cid, 24)
+doPlayerSendTextMessage(cid,22,"A forÁa dos Sky agora acompanham o nobre Sky Cleric.")
+doTargetCombatCondition(0, cid, condition, CONST_ME_MAGIC_BLUE)
+doRemoveItem(item.uid,1)
 
+elseif PlayerLevel == 8 and Voc == 3 then
+doPlayerSetVocation(cid, 23)
+doPlayerSendTextMessage(cid,22,"A forÁa dos Sky agora acompanham o nobre Sky Ranger.")
+doTargetCombatCondition(0, cid, condition, CONST_ME_MAGIC_BLUE)
+doRemoveItem(item.uid,1)
 
-    return true
+elseif PlayerLevel == 8 and Voc == 4 then
+doPlayerSetVocation(cid, 23)
+doPlayerSendTextMessage(cid,22,"A forÁa dos Sky agora acompanham o nobre Sky Slayer.")
+doTargetCombatCondition(0, cid, condition, CONST_ME_MAGIC_BLUE)
+doRemoveItem(item.uid,1)
+else
+doPlayerSendTextMessage(cid,22,"Desculpe, vocÍ n„o tem vocaÁ„o necessaria ou nÌvel suficiente.")
+end
 end

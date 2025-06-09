@@ -2,44 +2,35 @@ local condition = createConditionObject(CONDITION_ENERGY)
 setConditionParam(condition, CONDITION_PARAM_DELAYED, 1)
 addDamageCondition(condition, 0, 0, 0)
 
--- PromoÃ§Ãµes Templares
-local templarPromotions = {
-    [1] = { newVocation = 27, name = "Templar Wyzard" },
-    [2] = { newVocation = 28, name = "Templar Cleric" },
-    [3] = { newVocation = 26, name = "Templar Ranger" },
-    [4] = { newVocation = 25, name = "Templar Slayer" }
-}
-
-local function Kick(cid)
-    if isPlayer(cid) then
-        doRemoveCreature(cid)
-    end
-end
-
-
 function onUse(cid, item, frompos, item2, topos)
-    local voc = getPlayerVocation(cid)
-    local level = getPlayerLevel(cid)
-    local promo = templarPromotions[voc]
 
-    if not promo then
-        doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE,
-            "Sua vocaÃ§Ã£o atual nÃ£o pode ser promovida.")
-        return true
-    end
+Voc = getPlayerVocation(cid)
+PlayerLevel = getPlayerLevel(cid)
 
-    if level > 8 then
-        doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE,
-            "VocÃª precisa ter no mÃ¡ximo nivel 8 para evoluir (Crie um personagem novo).")
-        return true
-    end
+if PlayerLevel == 8 and Voc == 1 then
+doPlayerSetVocation(cid, 27)
+doPlayerSendTextMessage(cid,22,"A força dos Templares agora acompanham o nobre Templar Wyzard.")
+doTargetCombatCondition(0, cid, condition, CONST_ME_MAGIC_BLUE)
+doRemoveItem(item.uid,1)
 
-    doPlayerSetVocation(cid, promo.newVocation)
-    doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE,
-        "A forÃ§a dos Templares agora acompanham o nobre " .. promo.name .. ".")
-    doTargetCombatCondition(0, cid, condition, CONST_ME_MAGIC_BLUE)
-    doRemoveItem(item.uid, 1)
-    Kick(cid)
+elseif PlayerLevel == 8 and Voc == 2 then
+doPlayerSetVocation(cid, 28)
+doPlayerSendTextMessage(cid,22,"A força dos Templares agora acompanham o nobre Templar Cleric.")
+doTargetCombatCondition(0, cid, condition, CONST_ME_MAGIC_BLUE)
+doRemoveItem(item.uid,1)
 
-    return true
+elseif PlayerLevel == 8 and Voc == 3 then
+doPlayerSetVocation(cid, 26)
+doPlayerSendTextMessage(cid,22,"A força dos Templares agora acompanham o nobre Templar Ranger.")
+doTargetCombatCondition(0, cid, condition, CONST_ME_MAGIC_BLUE)
+doRemoveItem(item.uid,1)
+
+elseif PlayerLevel == 8 and Voc == 4 then
+doPlayerSetVocation(cid, 25)
+doPlayerSendTextMessage(cid,22,"A força dos Templares agora acompanham o nobre Templar Slayer.")
+doTargetCombatCondition(0, cid, condition, CONST_ME_MAGIC_BLUE)
+doRemoveItem(item.uid,1)
+else
+doPlayerSendTextMessage(cid,22,"Desculpe, você não tem vocação necessaria ou nível suficiente.")
+end
 end

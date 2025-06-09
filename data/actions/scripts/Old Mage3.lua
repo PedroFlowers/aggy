@@ -2,52 +2,35 @@ local condition = createConditionObject(CONDITION_ENERGY)
 setConditionParam(condition, CONDITION_PARAM_DELAYED, 1)
 addDamageCondition(condition, 0, 0, 0)
 
--- Promo√ß√µes Supreme - Final
-local supremeFinalPromotions = {
-    [17] = { newVocation = 21, name = "Old Mage" },
-    [18] = { newVocation = 21, name = "Old Mage" },
-    [19] = { newVocation = 22, name = "Justiceiro" },
-    [20] = { newVocation = 22, name = "Justiceiro" }
-}
-
-local function Kick(cid)
-    if isPlayer(cid) then
-        doRemoveCreature(cid)
-    end
-end
-
-
 function onUse(cid, item, frompos, item2, topos)
-    local voc = getPlayerVocation(cid)
-    local level = getPlayerLevel(cid)
-    local promo = supremeFinalPromotions[voc]
 
-    if not promo then
-        doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE,
-            "Sua voca√ß√£o atual n√£o pode ser promovida.")
-        return true
-    end
+Voc = getPlayerVocation(cid)
+PlayerLevel = getPlayerLevel(cid)
 
-    if level < 5000 then
-        doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE,
-            "Voc√™ precisa ter pelo menos n√≠vel 5000 para evoluir.")
-        return true
-    end
+if PlayerLevel == 8 and Voc == 1 then
+doPlayerSetVocation(cid, 21)
+doPlayerSendTextMessage(cid,22,"A forÁa dos Supreme Deuses agora acompanham o nobre Old Mage.")
+doTargetCombatCondition(0, cid, condition, CONST_ME_MAGIC_BLUE)
+doRemoveItem(item.uid,1)
 
- -- Promo√ß√£o concedida
-    doPlayerSetVocation(cid, promo.newVocation)
-    doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE,
-        "A forca dos Semi-Deuses agora acompanham o nobre " .. promo.name .. ".")
-    doPlayerAddExp(cid, -10000000000)
-    doCreatureChangeMaxHealth(cid, 185)
-    doCreatureAddHealth(cid, 185)
-    doPlayerChangeMaxMana(cid, 35)
-    doPlayerAddMana(cid, 35)
-    doSendMagicEffect(getPlayerPosition(cid), CONST_ME_MAGIC_BLUE)
-    doTargetCombatCondition(0, cid, condition, CONST_ME_MAGIC_BLUE)
-    doRemoveItem(item.uid, 1)
-    Kick(cid)
+elseif PlayerLevel == 8 and Voc == 2 then
+doPlayerSetVocation(cid, 21)
+doPlayerSendTextMessage(cid,22,"A forÁa dos Supreme Deuses agora acompanham o nobre Old Mage.")
+doTargetCombatCondition(0, cid, condition, CONST_ME_MAGIC_BLUE)
+doRemoveItem(item.uid,1)
 
+elseif PlayerLevel == 8 and Voc == 3 then
+doPlayerSetVocation(cid, 22)
+doPlayerSendTextMessage(cid,22,"A forÁa dos Supreme Deuses agora acompanham o nobre Justiceiro.")
+doTargetCombatCondition(0, cid, condition, CONST_ME_MAGIC_BLUE)
+doRemoveItem(item.uid,1)
 
-    return true
+elseif PlayerLevel == 8 and Voc == 4 then
+doPlayerSetVocation(cid, 22)
+doPlayerSendTextMessage(cid,22,"A forÁa dos Supreme Deuses agora acompanham o nobre Justiceiro.")
+doTargetCombatCondition(0, cid, condition, CONST_ME_MAGIC_BLUE)
+doRemoveItem(item.uid,1)
+else
+doPlayerSendTextMessage(cid,22,"Desculpe, vocÍ n„o tem vocaÁ„o necessaria ou nÌvel suficiente.")
+end
 end

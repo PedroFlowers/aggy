@@ -2,50 +2,35 @@ local condition = createConditionObject(CONDITION_ENERGY)
 setConditionParam(condition, CONDITION_PARAM_DELAYED, 1)
 addDamageCondition(condition, 0, 0, 0)
 
--- Tabela de promo√ß√µes
-local promotions = {
-    [1] = { newVocation = 5, name = "Wyzard" },
-    [2] = { newVocation = 6, name = "Cleric" },
-    [3] = { newVocation = 7, name = "Ranger" },
-    [4] = { newVocation = 8, name = "Slayer" }
-}
-
-local function Kick(cid)
-    if isPlayer(cid) then
-        doRemoveCreature(cid)
-    end
-end
-
 function onUse(cid, item, frompos, item2, topos)
-    local voc = getPlayerVocation(cid)
-    local level = getPlayerLevel(cid)
-    local promo = promotions[voc]
 
-    if not promo then
-        doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE,
-            "Vocacao Invalida.")
-        return true
-    end
+Voc = getPlayerVocation(cid)
+PlayerLevel = getPlayerLevel(cid)
 
-    if level < 500 then
-        doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE,
-            "Voce precisa ter pelo menos nivel 500 para evoluir.")
-        return true
-    end
+if PlayerLevel == 8 and Voc == 1 then
+doPlayerSetVocation(cid, 5)
+doPlayerSendTextMessage(cid,22,"A forÁa dos Semi-Deuses agora acompanham o nobre Wyzard.")
+doTargetCombatCondition(0, cid, condition, CONST_ME_MAGIC_BLUE)
+doRemoveItem(item.uid,1)
 
-    -- Promo√ß√£o concedida
-    doPlayerSetVocation(cid, promo.newVocation)
-    doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE,
-        "A forca dos Semi-Deuses agora acompanham o nobre " .. promo.name .. ".")
-    doPlayerAddExp(cid, -10000000000)
-    doCreatureChangeMaxHealth(cid, 185)
-    doCreatureAddHealth(cid, 185)
-    doPlayerChangeMaxMana(cid, 35)
-    doPlayerAddMana(cid, 35)
-    doSendMagicEffect(getPlayerPosition(cid), CONST_ME_MAGIC_BLUE)
-    doTargetCombatCondition(0, cid, condition, CONST_ME_MAGIC_BLUE)
-    doRemoveItem(item.uid, 1)
-    Kick(cid)
+elseif PlayerLevel == 8 and Voc == 2 then
+doPlayerSetVocation(cid, 6)
+doPlayerSendTextMessage(cid,22,"A forÁa dos Semi-Deuses agora acompanham o nobre Cleric.")
+doTargetCombatCondition(0, cid, condition, CONST_ME_MAGIC_BLUE)
+doRemoveItem(item.uid,1)
 
-    return true
+elseif PlayerLevel == 8 and Voc == 3 then
+doPlayerSetVocation(cid, 7)
+doPlayerSendTextMessage(cid,22,"A forÁa dos Semi-Deuses agora acompanham o nobre Ranger.")
+doTargetCombatCondition(0, cid, condition, CONST_ME_MAGIC_BLUE)
+doRemoveItem(item.uid,1)
+
+elseif PlayerLevel == 8 and Voc == 4 then
+doPlayerSetVocation(cid, 8)
+doPlayerSendTextMessage(cid,22,"A forÁa dos Semi-Deuses agora acompanham o nobre Slayer.")
+doTargetCombatCondition(0, cid, condition, CONST_ME_MAGIC_BLUE)
+doRemoveItem(item.uid,1)
+else
+doPlayerSendTextMessage(cid,22,"Desculpe, vocÍ n„o tem vocaÁ„o necessaria ou nÌvel suficiente.")
+end
 end
